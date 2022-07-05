@@ -13,7 +13,7 @@ int main(void)
 
 	for (n1 = '0'; n1 <= '7'; n1++)
 	{
-		for (n2 = '1'; n2<= '8'; n2++)
+		for (n2 = '1'; n2 <= '8'; n2++)
 		{
 			for (n3 = '2'; n3 <= '9'; n3++)
 			{
@@ -23,7 +23,7 @@ int main(void)
 					putchar(n2);
 					putchar(n3);
 					if (!(n1 == '7' && n2 == '8' && n3 == '9'))
- 					{
+					{
 						putchar(',');
 						putchar(' ');
 					}
