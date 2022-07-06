@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	print something ();
-	return (0);
+print something(void);
+return (0);
 }
